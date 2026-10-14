@@ -32,7 +32,7 @@ export default function AllCoursesPage() {
       category: "Arts & Social Sciences",
       description: "Explore digital media production, journalism ethics, broadcasting, and modern strategic public relations.",
       icon: <FaMicrophoneLines className="text-3xl text-[#2a6ee5]" />,
-      image: "/bg.jpeg",
+      image: "/mass_com.jpeg",
       href: "/courses/mass-communication"
     },
     {
@@ -64,7 +64,7 @@ export default function AllCoursesPage() {
       category: "Business & Management",
       description: "Study micro and macroeconomics, econometric data analysis, monetary policy, and financial market systems.",
       icon: <FaChartLine className="text-3xl text-[#2a6ee5]" />,
-      image: "/bg.jpeg",
+      image: "/eco.jpeg",
       href: "/courses/economics"
     },
     {
@@ -72,7 +72,7 @@ export default function AllCoursesPage() {
       category: "Business & Management",
       description: "Financial reporting, auditing, forensic accounting, tax compliance principles, and corporate governance.",
       icon: <FaCalculator className="text-3xl text-[#2a6ee5]" />,
-      image: "/bg.jpeg",
+      image: "/acc.jpeg",
       href: "/courses/accounting"
     },
     {

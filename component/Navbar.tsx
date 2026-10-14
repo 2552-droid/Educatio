@@ -63,7 +63,7 @@ export default function Navbar() {
 
       <div className="flex items-center gap-6 ml-6 max-lg:hidden">
         <Link href={"/auth"} className="flex items-center border gap-1 px-6 py-1 rounded-full border-gray-700 text-lg">Account <FaRegCircleUser /></Link>
-        <Link href={"/profile"} style={{ backgroundColor: Theme.primaryColor, borderColor: Theme.primaryColor }} className="px-6 py-1 rounded-full text-white border text-lg">Profile</Link>
+        <Link href={"/Profile"} style={{ backgroundColor: Theme.primaryColor, borderColor: Theme.primaryColor }} className="px-6 py-1 rounded-full text-white border text-lg">Profile</Link>
       </div>
 
       {/* mobile and tablet view */}
@@ -90,7 +90,7 @@ export default function Navbar() {
         </nav>
         <div className="flex flex-col items-center gap-6">
           <Link href={"/auth"} onClick={closeNav} className="flex items-center border gap-1 px-6 py-1 rounded-full border-gray-700 text-lg">Account <FaRegCircleUser /></Link>
-          <Link href={"/profile"} onClick={closeNav} style={{ backgroundColor: Theme.primaryColor, borderColor: Theme.primaryColor }} className="px-6 py-1 rounded-full text-white border text-lg">Profile</Link>
+          <Link href={"/Profile"} onClick={closeNav} style={{ backgroundColor: Theme.primaryColor, borderColor: Theme.primaryColor }} className="px-6 py-1 rounded-full text-white border text-lg">Profile</Link>
         </div>
       </div>
     </header>
