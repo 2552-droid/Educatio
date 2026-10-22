@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
@@ -171,7 +171,7 @@ export default function MyLearningRoute() {
             <div className="bg-white rounded-3xl p-4 shadow-sm border border-gray-100">
               <nav className="space-y-1">
                 <Link
-                  href="/profile"
+                  href="/Profile"
                   className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors"
                 >
                   <div className="flex items-center gap-3">

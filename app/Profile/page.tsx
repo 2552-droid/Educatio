@@ -97,25 +97,25 @@ export default function profile() {
             {/* Profile Navigation */}
             <div className="bg-white rounded-3xl p-4 shadow-sm border border-gray-100">
               <nav className="space-y-1">
-                <Link href="/profile" className="flex items-center justify-between px-4 py-3 bg-blue-50 text-[#2a6ee5] rounded-xl font-medium">
+                <Link href="/Profile" className="flex items-center justify-between px-4 py-3 bg-blue-50 text-[#2a6ee5] rounded-xl font-medium">
                   <div className="flex items-center gap-3">
                     <FaUser />
                     <span>Personal Info</span>
                   </div>
                 </Link>
-                <Link href="/profile/courses" className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors">
+                <Link href="/Profile/courses" className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors">
                   <div className="flex items-center gap-3">
                     <FaBookOpen />
                     <span>My Learning</span>
                   </div>
                 </Link>
-                <Link href="/profile/history" className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors">
+                <Link href="/Profile/history" className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors">
                   <div className="flex items-center gap-3">
                     <FaClockRotateLeft />
                     <span>History & Activity</span>
                   </div>
                 </Link>
-                <Link href="/profile/settings" className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors">
+                <Link href="/Profile/settings" className="flex items-center justify-between px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-medium transition-colors">
                   <div className="flex items-center gap-3">
                     <FaGear />
                     <span>Account Settings</span>

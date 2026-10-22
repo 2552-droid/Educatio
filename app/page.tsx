@@ -33,10 +33,10 @@ export default function Home() {
               Empowering students across disciplines. Access premium educational materials tailored for Law, Medicine, Computer Science, and beyond.
             </p>
             <Link 
-              href="#courses" 
+              href="community" 
               className="bg-white text-black flex items-center w-fit p-2 pr-2 rounded-full gap-4 hover:bg-gray-200 transition-colors mt-4"
             >
-              <span className="pl-4 font-semibold">See Our Courses</span>
+              <span className="pl-4 font-semibold">See Our Community</span>
               <button className="text-white w-10 h-10 rounded-full flex items-center justify-center bg-[#2a6ee5] hover:scale-105 transition-transform">
                 <FaArrowRightLong />
               </button>
